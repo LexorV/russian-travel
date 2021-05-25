@@ -35,5 +35,7 @@
 @import url('../blocks/place/__container-url-link/place__container-url-link.css');
 /*cover*/
 @import url('../blocks/cover/cover.css');
+@import url('../blocks/cover/__title/cover__title.css');
+@import url('../blocks/cover/__subtitle/cover__subtitle.css');
 /*footer*/
 @import url('../blocks/footer/footer.css');
