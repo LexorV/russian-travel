@@ -1,4 +1,5 @@
 .cover__title {
+margin: 0;
 font-size: 72px;
 font-style: normal;
 font-weight: 900;
@@ -7,4 +8,6 @@ letter-spacing: 0em;
 text-align: center;
 color: white;
 max-width: 560px;
+align-self: center;
+padding-bottom: 32px;
 }

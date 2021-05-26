@@ -1,6 +1,14 @@
 .cover {
+    margin: 0;
     background-image: url('../../images/__background.png');
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 740px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 92px;
+}
+.cover::after::content {
+    opacity: 0.3;
 }
