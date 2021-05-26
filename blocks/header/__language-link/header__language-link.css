@@ -11,3 +11,6 @@ color:#FFFFFF;
   /*border-bottom:1px white solid*/
   margin-right: 18px;
 }
+.header__language-link:hover {
+  opacity: 0.8;
+}
