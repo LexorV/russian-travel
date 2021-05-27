@@ -9,5 +9,6 @@ text-align: center;
 color: white;
 max-width: 560px;
 align-self: center;
-padding-bottom: 32px;
+padding-bottom: 32px; 
+pointer-events: none;
 }
