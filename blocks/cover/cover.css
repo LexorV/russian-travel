@@ -9,6 +9,9 @@
     padding-bottom: 92px;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-right: 48px;
+    margin-left: 48px;
+   
 }
 .cover:hover{
     background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('../../images/__background.png');

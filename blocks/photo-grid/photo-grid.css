@@ -5,4 +5,6 @@
  grid-template-columns: repeat(4, 1fr);
  /*grid-template-columns: repeat(4, minmax(min-content, max-content));*/
  grid-template-rows: repeat(3, 1fr);
+ padding-right: 48px;
+ padding-left: 48px;
 }
