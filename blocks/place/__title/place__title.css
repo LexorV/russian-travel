@@ -9,3 +9,12 @@ text-align: left;
 color: white;
 width: 460px;
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+.place__title{
+font-size: 42px;
+line-height: 46px;
+letter-spacing: 0em;
+text-align: left;
+width: 360px;
+    }
+}
