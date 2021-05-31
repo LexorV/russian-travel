@@ -1,22 +1,4 @@
 .place__container-url-link {
   margin: 0;
-  align-self: flex-end;
-  padding-left: 40px;
-}
-@media screen and (max-width: 1024px) {
-  .place__container-url-link {
-    padding-left: 32px;
-}
-}
-@media screen and (max-width: 768px)  {
-  .place__container-url-link {
-    padding-left: 28px;
-  }
-}
-
-@media screen and (max-width: 320px)  {
-.place__container-url-link {
-  padding: 32px 0 0 0;
-  align-self: flex-start;
-}
+  align-self: end;
 }
