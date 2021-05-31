@@ -8,4 +8,15 @@
 .place {
     padding-bottom: 72px;
 }
+.place:last-child {
+    padding-bottom: 0;
+}
+}
+@media screen and (max-width: 320) {
+    .place {
+        padding-bottom: 50px;
+    }
+    .place:last-child {
+        padding-bottom: 0;
+    }
 }

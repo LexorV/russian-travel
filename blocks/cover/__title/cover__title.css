@@ -9,15 +9,18 @@ text-align: center;
 color: white;
 max-width: 560px;
 align-self: center;
-padding-bottom: 32px; 
+padding-bottom: 32px;
 pointer-events: none;
 }
-@media screen and (min-width: 320px) and (max-width: 768px)
+@media screen and (max-width: 320px)
 {
     .cover__title {
         font-size: 32px;
         line-height: 35px;
         letter-spacing: 0em;
         max-width: 288px;
+        padding-bottom: 16px;
+        align-self: center;
+        max-height: 70px
     }
 }
