@@ -24,3 +24,8 @@ min-width: 288px;
 padding: 0 16px 0 16px;
     }
 }
+@media screen and (max-width: 280px)  {
+    .place__title {
+        min-width: calc(100% - 40px);
+    }
+}

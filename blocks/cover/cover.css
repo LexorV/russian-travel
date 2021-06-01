@@ -1,7 +1,7 @@
 .cover {
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../../images/cover-background.jpg');
     margin: 0;
-    min-width: 1024px;
+    min-width: calc(100vh - 48px);
     min-height: 740px;
     display: flex;
     flex-direction: column;
@@ -18,16 +18,24 @@
 @media screen and (max-width: 1024px) {
     .cover{
         margin: 0;
-        max-width: 1024px;
+        min-width: 100vw;
         min-height: 640px;
     }
     @media screen and (max-width: 768px) {
         .cover {
             min-height: 480px;
-            min-width: 768px;
+            min-width: 100vw;
         }
     }
 }
+@media screen and (max-width: 768px) {
+    .cover {
+        min-height: 480px;
+        min-width: 100vw;
+    }
+}
+
+
 @media screen and (max-width: 320px)  {
     .cover {
         min-height: 200px;
