@@ -2,22 +2,19 @@
     padding-bottom: 80px;
     width: 100%;
 }
+
 .place:last-child {
     padding-bottom: 0;
 }
+
 @media screen and (max-width: 768px) {
-.place {
-    padding-bottom: 72px;
+    .place {
+        padding-bottom: 72px;
+    }
 }
-.place:last-child {
-    padding-bottom: 0;
-}
-}
-@media screen and (max-width: 320) {
+
+@media screen and (max-width: 320px) {
     .place {
         padding-bottom: 50px;
-    }
-    .place:last-child {
-        padding-bottom: 0;
     }
 }

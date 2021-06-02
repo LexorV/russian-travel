@@ -2,8 +2,3 @@
     object-fit: fill;
     width: 100%;
 }
-@media screen and (max-width: 768px) {
-.lead__picter-trevel{
-width: 100%;
-}
-}

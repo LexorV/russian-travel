@@ -1,10 +1,10 @@
 .place__container-url-link {
-  margin: 0;
-  align-self: end;
+    margin: 0;
+    align-self: end;
 }
 
 @media screen and (max-width: 320px) {
-  .place__container-url-link{
-    padding: 0 16px 0 16px;
-  }
+    .place__container-url-link {
+        padding: 0 16px 0 16px;
+    }
 }

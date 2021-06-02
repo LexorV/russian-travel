@@ -1,13 +1,15 @@
 .place__container-description {
-  display: flex;
+    display: flex;
 }
+
 @media screen and (max-width: 620px) {
-  .place__container-description {
-    flex-direction: column;
-  }
+    .place__container-description {
+        flex-direction: column;
+    }
 }
+
 @media screen and (max-width: 320px) {
-  .place__container-description {
-    flex-direction: column;
-  }
+    .place__container-description {
+        flex-direction: column;
+    }
 }
