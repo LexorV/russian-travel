@@ -1,7 +1,7 @@
 .cover {
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../../images/cover-background.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../images/cover-background.jpg');
     margin: 0;
-    min-width: calc(100vh - 48px);
+    min-width: calc(100vh - 96px);
     min-height: 740px;
     display: flex;
     flex-direction: column;
@@ -12,11 +12,19 @@
     margin-right: 48px;
     margin-left: 48px;
 }
-.cover:hover{
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('../../images/cover-background.jpg');
+
+.cover:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../../images/cover-background.jpg');
 }
+
+@media screen and (max-width: 1044px) {
+    .cover {
+        min-height: 680px;
+    }
+}
+
 @media screen and (max-width: 1024px) {
-    .cover{
+    .cover {
         margin: 0;
         min-width: 100%;
         min-height: 640px;
@@ -28,7 +36,7 @@
     }
 }
 
-@media screen and (max-width: 320px)  {
+@media screen and (max-width: 320px) {
     .cover {
         min-height: 200px;
         min-width: 320px;
