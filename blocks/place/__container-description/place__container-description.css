@@ -1,7 +1,7 @@
 .place__container-description {
   display: flex;
 }
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 620px) {
   .place__container-description {
     flex-direction: column;
   }
