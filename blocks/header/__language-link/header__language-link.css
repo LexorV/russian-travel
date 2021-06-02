@@ -8,7 +8,6 @@ color:#FFFFFF;
 align-self: center;
 }
 .header__language-link:nth-child(1){
-  text-decoration-line: underline;
   /*border-bottom:1px white solid*/
   margin-right: 18px;
 }

@@ -7,18 +7,22 @@ line-height: 100px;
 letter-spacing: 0em;
 text-align: center;
 color: #FFFFFF;
+max-width: 720px;
+align-self: center;
 }
 
 @media  screen and (max-width: 700px) {
     .lead__title {
         font-size: 4.5rem;
         line-height: 4.6rem;
+        max-width: 500px;
     }
     }
 @media  screen and (max-width: 550px) {
     .lead__title {
     font-size: 46px;
     line-height: 50px;
+    max-width: 440px;
     }
     }
 @media  screen and (max-width: 320px) {
