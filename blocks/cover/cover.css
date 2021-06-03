@@ -1,7 +1,6 @@
 .cover {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../images/cover-background.jpg');
     margin: 0;
-    /*min-width: calc(100vh - 96px);*/
     max-width: 1184px;
     min-height: 740px;
     display: flex;
@@ -11,16 +10,11 @@
     background-size: cover;
     margin-right: 48px;
     margin-left: 48px;
+    transition: 5s;
 }
 
 .cover:hover {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../../images/cover-background.jpg');
-}
-
-@media screen and (max-width: 1100px) {
-    .cover {
-        /* min-width: calc(100vh - 200px)*/
-    }
 }
 
 @media screen and (max-width: 1024px) {
