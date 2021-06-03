@@ -23,7 +23,7 @@
     .lead__title {
         font-size: 44px;
         line-height: 48px;
-        max-width: 440px;
+        max-width: 380px;
     }
 }
 
@@ -38,5 +38,6 @@
     .lead__title {
         font-size: 25px;
         line-height: 29px;
+        width: 200px;
     }
 }
