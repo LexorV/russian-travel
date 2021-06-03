@@ -16,7 +16,7 @@
     }
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 700px) {
     .place__container-text {
         padding-top: 32px;
         padding-left: 0;
