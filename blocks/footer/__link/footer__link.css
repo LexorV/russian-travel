@@ -11,6 +11,7 @@
 
 .footer__link:last-child {
     padding-right: 0;
+    padding-bottom: 0;
 }
 
 .footer__link:hover {

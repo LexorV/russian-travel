@@ -1,4 +1,15 @@
 .lead__picter-trevel {
-    object-fit: fill;
-    width: 100%;
+    min-width: 984px;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__picter-trevel {
+        min-width: 928px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .lead__picter-trevel {
+        min-width: 100%;
+    }
 }
