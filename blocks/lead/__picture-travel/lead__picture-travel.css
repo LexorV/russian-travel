@@ -1,15 +1,15 @@
-.lead__picter-trevel {
+.lead__picter-travel {
     min-width: 984px;
 }
 
 @media screen and (max-width: 1024px) {
-    .lead__picter-trevel {
+    .lead__picter-travel {
         min-width: 928px;
     }
 }
 
 @media screen and (max-width: 720px) {
-    .lead__picter-trevel {
+    .lead__picter-travel {
         min-width: 100%;
     }
 }
