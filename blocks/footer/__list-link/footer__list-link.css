@@ -1,0 +1,18 @@
+.footer__list-link {
+    padding: 0 0 0 18px;
+}
+
+.footer__list-link:last-child {
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+.footer__list-link:first-child {
+    padding-left: 0;
+}
+
+@media screen and (max-width: 500px) {
+    .footer__list-link {
+        padding: 0 0 32px 0;
+    }
+}

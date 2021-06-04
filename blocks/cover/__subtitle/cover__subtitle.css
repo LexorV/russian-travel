@@ -9,6 +9,7 @@
     color: white;
     max-width: 360px;
     align-self: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 510px) {
