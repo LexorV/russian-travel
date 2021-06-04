@@ -1,4 +1,5 @@
-.header__language-list{
-    margin: 0;
+.header__language-list {
     align-self: center;
+    margin: 0;
+    padding: 0;
 }

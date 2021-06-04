@@ -3,14 +3,13 @@
     margin: 0;
     max-width: 1184px;
     min-height: 740px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin-right: 48px;
     margin-left: 48px;
-    background-position: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
 }
 
 .cover:hover {

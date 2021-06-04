@@ -11,6 +11,7 @@
     align-self: center;
     padding-bottom: 32px;
     pointer-events: none;
+    align-items: center;
 }
 
 @media screen and (max-width: 510px) {
