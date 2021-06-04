@@ -1,4 +1,5 @@
 .header__language {
     display: flex;
     padding-top: 14px;
+    list-style-type: none;
 }
