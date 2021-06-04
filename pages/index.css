@@ -1,5 +1,6 @@
 @import url('../fonts/inter/inter.css');
 @import url('../blocks/root/root.css');
+@import url('../blocks/root/_position/root_position.css');
 
 /*header*/
 
@@ -16,6 +17,8 @@
 @import url('../blocks/lead/__subtitle/lead__subtitle.css');
 @import url('../blocks/lead/__picture-trevel/lead__picture-trevel.css');
 @import url('../blocks/lead/__caption/lead__caption.css');
+@import url('../blocks/lead/__list-text/intro__list-text.css');
+@import url('../blocks/lead/__list-text/_saturation/intro__list-text_saturation.css');
 
 /*intro*/
 
