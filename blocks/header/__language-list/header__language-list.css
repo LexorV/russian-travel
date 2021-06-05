@@ -3,3 +3,6 @@
     margin: 0;
     padding: 0;
 }
+.header__language-list:nth-child(1) {
+    margin-right: 18px;
+}

@@ -2,13 +2,6 @@
     display: flex;
     align-items: flex-start;
 }
-
-@media screen and (max-width: 690px) {
-    .footer__menu {
-        padding-bottom: 48px;
-    }
-}
-
 @media screen and (max-width: 500px) {
     .footer__menu {
         flex-direction: column;

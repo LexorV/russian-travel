@@ -7,6 +7,7 @@
     background-size: cover;
     margin-right: 48px;
     margin-left: 48px;
+    background-position: center;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -40,6 +41,5 @@
     .cover {
         min-height: 100px;
         min-width: 220px;
-        padding: 0;
     }
 }
